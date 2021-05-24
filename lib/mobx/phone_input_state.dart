@@ -43,7 +43,7 @@ abstract class _PhoneInputState with Store {
   @action
   clear() {
     _input = '';
-    setPhone('');
+    inputController.clear();
   }
 }
 
